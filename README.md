@@ -1,3 +1,14 @@
+Steps to getting the program running:
+1. Download the Arduino Software from their website.
+2. Download this repo to your computer.
+3. Download this library to your computer: https://github.com/rambo/I2C
+4. Open "Flextrack.ino". This is the file that we will actually upload to the Arduino.
+5. Change values as necessary in the file such as upload interval and callsign.
+6. Connect Arduino board and upload. 
+
+
+## BELOW INFORMATION IS FROM DAVEAKE'S FLEXTRACK REPO
+
 ## FlexTrack 
 
 Flexible Arduino-based tracker software for RTTY, LoRa and APRS.
