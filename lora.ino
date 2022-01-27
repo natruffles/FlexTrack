@@ -841,7 +841,7 @@ void CheckLoRa(void)
   	    {
   		    CallingCount = 0;
   		    setupRFM98(LORA_CALL_FREQ, LORA_CALL_MODE);
-          PacketLength = BuildLoRaCall(Sentence);
+          PacketLength = 5;//BuildLoRaCall(Sentence);
   		    Serial.println(F("LoRa: Calling Mode"));
           SendLoRaPacket(Sentence, PacketLength, 1);
   	    }

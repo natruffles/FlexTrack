@@ -172,8 +172,8 @@ void tx_aprs(void)
   ax25_base91enc(ptr, 2, GPS.Satellites);
   ptr += 2;
 #ifdef WIREBUS  
-  ax25_base91enc(ptr, 2, DS18B20_Temperatures[0] + 100);
-  ptr += 2;
+  //ax25_base91enc(ptr, 2, DS18B20_Temperatures[0] + 100);
+  //ptr += 2;
 #endif
 ax25_base91enc(ptr, 2, Channel0Average);  
     

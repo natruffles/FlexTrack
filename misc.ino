@@ -62,7 +62,7 @@ int BuildSentence(char *TxLine, const char *PayloadID)
 	
 	return strlen(TxLine) + 1;
 }
-
+/*
 int BuildLoRaCall(unsigned char *TxLine)
 {
 	char Frequency[8];
@@ -79,3 +79,4 @@ int BuildLoRaCall(unsigned char *TxLine)
 			
 	return strlen((char *)TxLine) + 1;
 }
+*/
